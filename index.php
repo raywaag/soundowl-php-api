@@ -28,7 +28,7 @@
                 // GET COUNTRY ARTISTS 
                     if(isset($_POST['get-country-artists']))
                     {
-                        $url = "http://localhost:8888/php_api/api/country";
+                        $url = "https://raywaag.github.io/soundowl-php-api/api/country";
                         $client = curl_init($url);
                         curl_setopt($client,CURLOPT_RETURNTRANSFER,true);
                         $response = curl_exec($client);                       
@@ -40,7 +40,7 @@
                     // GET HIP HOP ARTISTS 
                     if(isset($_POST['get-hiphop-artists']))
                     {
-                        $url = "http://localhost:8888/php_api/api/hiphop";
+                        $url = "https://raywaag.github.io/soundowl-php-api/api/hiphop";
                         $client = curl_init($url);
                         curl_setopt($client,CURLOPT_RETURNTRANSFER,true);
                         $response = curl_exec($client);                       
@@ -52,7 +52,7 @@
                     // GET ALTERNATIVE ARTISTS 
                     if(isset($_POST['get-alternative-artists']))
                     {
-                        $url = "http://localhost:8888/php_api/api/alternative";
+                        $url = "https://raywaag.github.io/soundowl-php-api/api/alternative";
                         $client = curl_init($url);
                         curl_setopt($client,CURLOPT_RETURNTRANSFER,true);
                         $response = curl_exec($client);                       
@@ -65,7 +65,7 @@
                     // GET CLASSIC ROCK ARTISTS 
                     if(isset($_POST['get-classicrock-artists']))
                     {
-                        $url = "http://localhost:8888/php_api/api/classicrock";
+                        $url = "https://raywaag.github.io/soundowl-php-api/api/classicrock";
                         $client = curl_init($url);
                         curl_setopt($client,CURLOPT_RETURNTRANSFER,true);
                         $response = curl_exec($client);                       
@@ -78,7 +78,7 @@
                     // GET EASY LISTENING ARTISTS 
                     if(isset($_POST['get-easylistening-artists']))
                     {
-                        $url = "http://localhost:8888/php_api/api/easylistening";
+                        $url = "https://raywaag.github.io/soundowl-php-api/api/easylistening";
                         $client = curl_init($url);
                         curl_setopt($client,CURLOPT_RETURNTRANSFER,true);
                         $response = curl_exec($client);                       
